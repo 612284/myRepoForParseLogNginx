@@ -1,2 +1,10 @@
-64,192.168.226.64
-25,162.55.33.98
+5,/api/datasources/proxy/1/api/v1/query_range?query=sum_over_time(probe_success%7Btarget%3D~%22()%22%7D%5B5s%5D)&start=1619471730&end=1619472030&step=30
+5,/api/datasources/proxy/1/api/v1/query_range?query=sum_over_time(probe_success%5B5s%5D)&start=1619471730&end=1619472030&step=30
+5,/api/datasources/proxy/1/api/v1/query_range?query=probe_success%7Btarget%3D~%22()%22%7D&start=1619471730&end=1619472030&step=30
+5,/api/datasources/proxy/1/api/v1/query_range?query=probe_ssl_earliest_cert_expiry%7Btarget%3D~%22()%22%7D-time()&start=1619471730&end=1619472030&step=30
+5,/api/datasources/proxy/1/api/v1/query_range?query=probe_http_status_code%7Btarget%3D~%22()%22%7D&start=1619471730&end=1619472030&step=30
+5,/api/datasources/proxy/1/api/v1/query_range?query=probe_http_ssl%7Btarget%3D~%22()%22%7D&start=1619471730&end=1619472030&step=30
+5,/api/datasources/proxy/1/api/v1/query_range?query=probe_duration_seconds%20and%20probe_success%20%3D%3D%201&start=1619471730&end=1619472030&step=30
+5,/api/datasources/proxy/1/api/v1/query_range?query=avg(probe_duration_seconds%7Btarget%3D~%22()%22%7D)&start=1619471730&end=1619472030&step=30
+5,/api/datasources/proxy/1/api/v1/query_range?query=avg(probe_dns_lookup_time_seconds%7Btarget%3D~%22()%22%7D)&start=1619471730&end=1619472030&step=30
+4,/api/datasources/proxy/1/api/v1/query_range?query=probe_duration_seconds%7Btarget%3D~%22()%22%7D%20and%20probe_success%7Btarget%3D~%22()%22%7D%20%3D%3D%201&start=1619471730&end=1619472030&step=30
